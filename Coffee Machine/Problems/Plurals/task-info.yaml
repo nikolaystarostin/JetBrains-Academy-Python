@@ -1,0 +1,20 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    number = int(input())
+    word = input()
+
+    # write a condition for plurals
+
+
+    print(number, word)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8439
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8439">JetBrains
+    Academy</a></html>
+  time: Thu, 02 Jul 2020 19:02:18 UTC
+record: -1
