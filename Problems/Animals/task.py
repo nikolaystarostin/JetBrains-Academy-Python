@@ -1,0 +1,6 @@
+animals = open('animals.txt', 'r')
+lines = animals.read().replace('\n', ' ')
+animals.close()
+animals_new = open('animals_new.txt', 'w')
+animals_new.write(lines)
+animals_new.close()
