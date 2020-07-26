@@ -1,1 +1,6 @@
-print('1 2 3 4 5 6 7 8 9 10')
+# put your python code here
+def multiply(a, b=1, *args):
+    total = a * b
+    for n in args:
+        total *= n
+    return total
